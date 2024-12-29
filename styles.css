@@ -1,0 +1,8 @@
+iframe[src*="ads"],
+div[class*="ad"],
+div[id*="ad"],
+[class*="sponsored"],
+[id*="sponsored"],
+div[data-ad] {
+    display: none !important;
+}
